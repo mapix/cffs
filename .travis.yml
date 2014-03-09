@@ -8,6 +8,7 @@ python:
     - 3.3
 
 install:
+    - pip install pylint
     - pip install --use-mirrors coveralls
 
 script:
